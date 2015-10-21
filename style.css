@@ -1,0 +1,61 @@
+
+
+body
+{
+    background-image : url(http://www.miroirdemuses.com/upload/lookbook/campagne-2014-photo8.jpg);
+    position:relative;
+}
+
+
+.logo
+{
+    width:125px;
+    height:187px;
+    position:absolute;
+    left:50px;
+    top: 30px;
+}
+
+
+/* -------------\*
+***** FORM *****
+\*-------------*/
+
+
+
+.introduction
+{
+    position:absolute;
+    padding:10px;
+    
+    background-color: red;
+    
+    color:red;
+
+}
+
+/* -------------\*
+***** FOOTER *****
+\*-------------*/
+
+nav ul
+{
+    list-style-type: none;
+    
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    
+    background-color: rgba(24,24,24,0.8);
+    
+    color: white;
+}
+
+nav li
+{
+    display: inline-block;
+    margin:10px;
+}
+
