@@ -1,9 +1,11 @@
 
+/* -------------\*
+***** GENERAL *****
+\*-------------*/
 
 body
 {
     background-image : url(http://www.miroirdemuses.com/upload/lookbook/campagne-2014-photo8.jpg);
-    position:relative;
 }
 
 
@@ -21,18 +23,48 @@ body
 ***** FORM *****
 \*-------------*/
 
-
-
-.introduction
+.section
 {
     position:absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+
+.paiement_secu
+{
+
+    display: block;
+    margin-bottom:10px;
     padding:10px;
+    width: 400px;
+    height 200px;
     
-    background-color: red;
+    background-color: white;
+    
+    text-align : center;
+    
+    color:black;
+
+}
+.introduction
+{
+
+    display: block;
+    padding:10px;
+    width: 400px;
+    height 200px;
+    
+    background-color: white;
+    
+    text-align : center;
     
     color:red;
 
 }
+
+
+
 
 /* -------------\*
 ***** FOOTER *****
@@ -43,10 +75,10 @@ nav ul
     list-style-type: none;
     
     position: absolute;
-    bottom: 0px;
     width:100%;
     margin: auto;
     text-align: center;
+    bottom:0px;
     
     background-color: rgba(24,24,24,0.8);
     
